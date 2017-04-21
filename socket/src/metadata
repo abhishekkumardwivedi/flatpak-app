@@ -3,3 +3,6 @@ name=com.permissive.socket
 runtime=org.gnome.Platform/x86_64/3.24
 sdk=org.gnome.Sdk/x86_64/3.24
 command=socket.sh
+
+[Context]
+shared=network;
