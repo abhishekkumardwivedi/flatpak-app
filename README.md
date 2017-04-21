@@ -9,3 +9,7 @@ sudo flatpak remote-add --no-gpg-verify apps https://github.com/abhishekkumardwi
 
 
 flatpak build-update-repo --title="Flatpak sample apps"
+
+
+# Tests ------
+flatpak run com.permissive.audio

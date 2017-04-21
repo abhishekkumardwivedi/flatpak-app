@@ -3,4 +3,6 @@ name=com.permissive.audio
 runtime=org.gnome.Platform/x86_64/3.24
 sdk=org.gnome.Sdk/x86_64/3.24
 command=audio.sh
-socket=pulseaudio
+
+[Context]
+sockets=pulseaudio;
